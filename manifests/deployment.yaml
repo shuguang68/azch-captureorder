@@ -14,7 +14,7 @@ spec:
       spec:
         containers:
         - name: captureorder
-          image: uniqueacrname.azurecr.io/captureorder # replace with your own repository
+          image: tdbankwsgacr.azurecr.io/captureorder:cf1
           imagePullPolicy: Always
           readinessProbe:
             httpGet:
