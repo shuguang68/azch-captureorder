@@ -33,7 +33,7 @@ spec:
               cpu: "500m"
           env:
           - name: TEAMNAME
-            value: 'placeholder' # will be patched at deployment time by value of 'teamName' in the variable group
+            value: 'tdTeam'
           - name: MONGOHOST
             valueFrom:
               secretKeyRef:
