@@ -14,7 +14,7 @@ spec:
       spec:
         containers:
         - name: captureorder
-          image: tdbankwsgacr.azurecr.io/captureorder:latest
+          image: tdbankwsgacr.azurecr.io/captureorder
           imagePullPolicy: Always
           readinessProbe:
             httpGet:
